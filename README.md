@@ -12,10 +12,16 @@ This repository contains a project focused on classifying music genres and recom
 - **best_xgb_model.pkl**: The saved best XGBoost model from the classification task.
 - **knn_model.pkl**: The saved KNN model used for the recommendation system.
 
+# Project Overview
+## Music Genre Classification
+The classification task involves training several supervised learning models, including Random Forest, SVM, KNN, Decision Tree, and XGBoost, to classify music genres based on extracted features. The models are evaluated using metrics such as accuracy, confusion matrix, and ROC-AUC score.
+
+## Recommendation System
+The recommendation system uses a K-Nearest Neighbors (KNN) approach to recommend similar songs based on cosine similarity of their features. The system is designed to provide recommendations for a given song from the dataset.
+
 ## Getting Started
 
 ### Prerequisites
-
 - Python 3.7+
 - Jupyter Notebook
 
@@ -28,10 +34,3 @@ xgboost
 joblib
 seaborn
 matplotlib
-
-Project Overview
-Music Genre Classification
-The classification task involves training several supervised learning models, including Random Forest, SVM, KNN, Decision Tree, and XGBoost, to classify music genres based on extracted features. The models are evaluated using metrics such as accuracy, confusion matrix, and ROC-AUC score.
-
-Recommendation System
-The recommendation system uses a K-Nearest Neighbors (KNN) approach to recommend similar songs based on cosine similarity of their features. The system is designed to provide recommendations for a given song from the dataset.
