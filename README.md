@@ -1,5 +1,3 @@
-# MusicClassificationModels
-
 # Music Genre Classification and Recommendation System
 
 This repository contains a project focused on classifying music genres and recommending similar songs using supervised learning techniques. The project is structured into two main parts: building and comparing supervised learning models, and developing a recommendation system.
