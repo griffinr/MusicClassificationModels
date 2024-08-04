@@ -6,7 +6,11 @@ This repository contains a project focused on classifying music genres and recom
 
 - **Data/**: This folder contains a snapshot of the data used for the project, including audio files, `features_3_sec.csv`, and `features_30_sec.csv`.
 - **Supervised Learning Models.ipynb**: A Jupyter notebook that includes the implementation and comparison of various supervised learning models for music genre classification.
+- **Data Exploration.ipynb**: A Jupyter notebook that contains the implementation of the dataset exploration
+- **CNN_with_MFCC**: A Jupyter notebook that contains the implementation of the CNN model along with MFCC variation for the music classification system.
+- **CNN_with_Spectrogram**: A Jupyter notebook that contains the implementation of the CNN model along with Spectrogram variation for the music classification system.
 - **Recommendation System.ipynb**: A Jupyter notebook that contains the implementation of the music genre classification and the recommendation system.
+
 - **best_xgb_model.pkl**: The saved best XGBoost model from the classification task.
 - **knn_model.pkl**: The saved KNN model used for the recommendation system.
 
@@ -32,3 +36,5 @@ xgboost
 joblib
 seaborn
 matplotlib
+pytorch
+librosa (https://librosa.org)
